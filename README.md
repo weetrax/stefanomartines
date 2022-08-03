@@ -1,3 +1,3 @@
-## BoilerNext
+## Stefano Martines
 
-BoilerNext - A NextJS - Tailwind - Typescript Boilerplate
+Personnal website
