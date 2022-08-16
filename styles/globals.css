@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .hero-title {
+        @apply relative font-bold mb-4 text-2xl lg:text-4xl;
+    }
+    .hero-title .badge {
+        @apply bg-primary-500 align-middle bg-opacity-25 rounded-full text-sm sm:text-lg lg:text-2xl p-2 py-1 mx-1 leading-none text-white transition-colors duration-300;
+    }
+
+    .skills-card:hover{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+}

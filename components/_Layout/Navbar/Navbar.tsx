@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       as="nav"
       className="bg-dark-600 backdrop-filter backdrop-blur bg-opacity-70 items-center sticky top-0 shadow-sm z-20"
     >
-      {({ open }) => (
+      {({ open, close }) => (
         <>
           <Container>
             <div className="relative flex items-center justify-between h-16">
@@ -41,7 +41,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
+                {/*<div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-8 w-auto"
                     src="/assets/img/logo.svg"
@@ -52,18 +52,20 @@ const Navbar: React.FC<NavbarProps> = () => {
                     src="/assets/img/logo.svg"
                     alt="Workflow"
                   />
-                </div>
-                <div className="hidden sm:block sm:ml-6">
+                  </div>*/}
+                {/*<div className={`hidden sm:block sm:ml-6`}>*/}
+                <div className={`hidden sm:block`}>
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link href={item.href} key={item.name}>
                         <a
                           className={classNames(
                             router.pathname == item.href
-                              ? "bg-dark-500 "
-                              : "hover:bg-dark-500 duration-200 ease-in-out transition",
+                              ? "bg-primary-500"
+                              : "hover:bg-primary-500 duration-200 ease-in-out transition",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
+                          onClick={() => close}
                           aria-current={
                             router.pathname == item.href ? "page" : undefined
                           }
@@ -86,10 +88,11 @@ const Navbar: React.FC<NavbarProps> = () => {
                     <a
                       className={classNames(
                         router.pathname == item.href
-                          ? "bg-dark-500"
-                          : "hover:bg-dark-500",
+                          ? "bg-primary-500"
+                          : "hover:bg-primary-500",
                         "block px-3 py-2 rounded-md text-base font-medium duration-200 ease-in-out transition"
                       )}
+                      onClick={() => close()}
                       aria-current={
                         router.pathname == item.href ? "page" : undefined
                       }

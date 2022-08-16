@@ -1,0 +1,25 @@
+.min-h-screen-nav {
+    min-height: calc(100vh - 64px);
+}
+.hoverzindex-1:hover{
+    z-index: 1;
+}
+
+/* GRADIENT */
+.text-gradient {
+    background: #ea79ff;
+    background: -webkit-linear-gradient(300deg,#6f5dff,#ea79ff);
+    background: linear-gradient(300deg,#6f5dff,#ea79ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.bg-gradient {
+    background: #ea79ff;
+    background: -webkit-linear-gradient(300deg,#6f5dff,#ea79ff);
+    background: linear-gradient(300deg,#6f5dff,#ea79ff);
+}
+.bg-gradient-i {
+    background: #ea79ff;
+    background: -webkit-linear-gradient(150deg,#6f5dff,#ea79ff);
+    background: linear-gradient(150deg,#6f5dff,#ea79ff);
+}

@@ -14,14 +14,14 @@ const _Layout: React.FC<_LayoutProps> = ({ children }) => {
       <Navbar />
       <Toaster position="bottom-right" reverseOrder={false} />
       <NextNprogress
-        color="#fca311"
+        color="#6f5dff"
         startPosition={0.3}
         stopDelayMs={200}
         height={3}
         options={{ showSpinner: false }}
         showOnShallow={true}
       />
-      <main className="flex-1" style={{ backgroundImage: "url('/assets/img/topography.svg')" }}>
+      <main className="flex-1">
         {children}
       </main>
       <Footer />

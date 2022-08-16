@@ -1,6 +1,12 @@
+import Container from '../components/_Layout/Container';
+import Head from 'next/head';
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Container from '../components/_Layout/Container'
+import Hero from '../components/Home/Hero';
+import AboutMe from '../components/Home/AboutMe';
+import Skills from '../components/Home/Skills';
+import TimelineExp from '../components/Home/TimelineExp';
+import TimelineStudies from '../components/Home/TimelineStudies';
+import Interest from '../components/Home/Interest';
 
 const Home: NextPage = () => {
   return (
@@ -10,10 +16,13 @@ const Home: NextPage = () => {
         <meta name="description" content="BoilerNext - A NextJS - Tailwind - Typescript Boilerplate" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Hero />
       <Container>
-        <div className='my-8'>
-          <h1 className='text-2xl font-bold'>Hello Next.js</h1>
-        </div>
+        <AboutMe />
+        <Skills />
+        <TimelineExp />
+        <TimelineStudies />
+        <Interest />
       </Container>
     </div>
   )
