@@ -45,10 +45,10 @@ const AboutMe: React.FC<AboutMeProps> = () => {
             </div>
             <div>
               <a href="https://gitlab.com/weetrax" rel="noreferrer" target="_blank" className="inline px-2">
-                <FontAwesomeIcon icon={faGitlab}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faGitlab} className="w-6 h-6"></FontAwesomeIcon>
               </a>
               <a href="https://www.linkedin.com/in/stefano-martines-2484a7123/" rel="noreferrer" target="_blank" className="inline px-2">
-                <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faLinkedinIn} className="w-6 h-6"></FontAwesomeIcon>
               </a>
             </div>
           </div>

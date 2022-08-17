@@ -34,13 +34,13 @@ const Footer: React.FC<FooterProps> = () => {
           </li>
           <li className='flex gap-4 justify-center'>
             <a href="https://gitlab.com/weetrax" rel="noreferrer" target="_blank" className="hover:text-primary-500 transition-colors duration-200 ease-in-out">
-              <FontAwesomeIcon icon={faGitlab}></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faGitlab} className="w-4 h-4"></FontAwesomeIcon>
             </a>
             <a href="https://github.com/weetrax" rel="noreferrer" target="_blank" className="hover:text-primary-500 transition-colors duration-200 ease-in-out">
-              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faGithub} className="w-4 h-4"></FontAwesomeIcon>
             </a>
             <a href="https://www.linkedin.com/in/stefano-martines-2484a7123/" rel="noreferrer" target="_blank" className="hover:text-primary-500 transition-colors duration-200 ease-in-out">
-              <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faLinkedinIn} className="w-4 h-4"></FontAwesomeIcon>
             </a>
           </li>
         </ul>
