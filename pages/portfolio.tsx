@@ -10,8 +10,10 @@ const Home: NextPage = () => {
     return (
         <div>
             <Head>
-                <title>BoilerNext - Portfolio</title>
-                <meta name="description" content="BoilerNext - A NextJS - Tailwind - Typescript Boilerplate" />
+                <title>Stefano Martines | Portfolio</title>
+                <meta name="description" content="Stefano Martines - Personal Portfolio" />
+                <meta property="og:title" content="Stefano Martines | Portfolio"></meta>
+                <meta property="og:description" content="Personal Portfolio"></meta>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Container>
