@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import ProjectAbsMedical from '../components/Portfolio/ProjectAbsMedical'
 import ProjectBadgetor from '../components/Portfolio/ProjectBadgetor'
+import ProjectJexchange from '../components/Portfolio/ProjectJexchange'
 import ProjectSeekgamers from '../components/Portfolio/ProjectSeekgamers'
 import ProjectTripsti from '../components/Portfolio/ProjectTripsti'
 import Container from '../components/_Layout/Container'
@@ -37,7 +38,8 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </div>
-                {/*<ProjectBadgetor />*/}
+                <ProjectBadgetor />
+                <ProjectJexchange />
                 <ProjectSeekgamers />
                 <ProjectTripsti />
                 <ProjectAbsMedical />

@@ -39,14 +39,14 @@ const ProjectAbsMedical: React.FC<ProjectAbsMedicalProps> = () => {
         </div>
         <div className="col-span-2 md:col-span-1">
           <div className="grid grid-cols-2 gap-3">
+            <div className="col-span-2">
+              <img src="assets/img/projects/absmedical-home.png" alt="Image projet 3" style={{ height: "200px" }} className="bg-dark rounded-2xl object-cover h-full w-full"></img>
+            </div>
             <div className="col-span-1">
               <img src="assets/img/projects/absmedical.png" alt="Image projet 1" style={{ height: "200px" }} className="bg-dark rounded-2xl object-cover h-full w-full"></img>
             </div>
             <div className="col-span-1">
               <img src="assets/img/projects/absmedical-home2.png" alt="Image projet 2" style={{ height: "200px" }} className="bg-dark rounded-2xl object-cover h-full w-full"></img>
-            </div>
-            <div className="col-span-2">
-              <img src="assets/img/projects/absmedical-home.png" alt="Image projet 3" style={{ height: "200px" }} className="bg-dark rounded-2xl object-cover h-full w-full"></img>
             </div>
           </div>
         </div>
