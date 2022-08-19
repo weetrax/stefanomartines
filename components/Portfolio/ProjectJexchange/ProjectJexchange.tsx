@@ -19,7 +19,7 @@ const ProjectJexchange: React.FC<ProjectJexchangeProps> = () => {
           <p>Site commercial pour le projet JEXchange.<br /><br />
             <a href="https://jexchange.io/" target="_blank" rel="noopener noreferrer" className="text-primary-500">JEXchange</a> est un échangeur décentralisé permettant aux utilisateurs de s’échanger des tokens de l’éco-système Elrond en toute sécurité.
             Il s’agit ici de proposer une plateforme simple et intuitive ayant pour objectif principal la création d’offres d’échange de tokens, le tout géré par un contrat intelligent (Smart Contract)<br /><br />
-            Développement des différentes pages, mise en place de stats via requêtes API Rest, développement d'interfaces {'&'} de composants React.JS pour la partie <a href="https://app.jexchange.io/" target="_blank" rel="noopener noreferrer" className="text-primary-500">app</a>.<br /><br />
+            Développement des différentes pages, mise en place de stats via requêtes API Rest, développement d{`'`}APIinterfaces {'&'} de composants React.JS pour la partie <a href="https://app.jexchange.io/" target="_blank" rel="noopener noreferrer" className="text-primary-500">app</a>.<br /><br />
           </p>
           <p className="mb-2 border-b border-primary-500">
             Technologies {`&`} Frameworks

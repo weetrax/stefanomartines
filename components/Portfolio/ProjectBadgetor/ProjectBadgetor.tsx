@@ -19,7 +19,7 @@ const ProjectBadgetor: React.FC<ProjectBadgetorProps> = () => {
           <p>Plateforme web de génération de badge.<br /><br />
             <a href="https://badgetor.com/" target="_blank" rel="noopener noreferrer" className="text-primary-500">Badgetor</a> est une application web permettant de générer des badges téléchargeable 100% personnalisables pour vos NFT avec intégration de QR Code.<br />
             Seule la blockchain Elrond et quelques collections sont supportées pour le moment.<br /><br />
-            Développement des différentes pages, interfaçage avec l'API Elrond pour les requêtes.<br /><br />
+            Développement des différentes pages, interfaçage avec l{`'`}API Elrond pour les requêtes.<br /><br />
           </p>
           <p className="mb-2 border-b border-primary-500">
             Technologies {`&`} Frameworks
