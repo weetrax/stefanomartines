@@ -7,7 +7,7 @@ type ThemeContextType = {
 }
 
 const ThemeContext = React.createContext<ThemeContextType>({
-    theme: getLocalStorageTheme(),
+    theme: "dark",
     toggleTheme: () => { }
 })
 
