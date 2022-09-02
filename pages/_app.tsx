@@ -1,12 +1,15 @@
 import _Layout from '../components/_Layout';
+import { ThemeProvider } from '../providers/ThemeProvider';
+import type { AppProps } from 'next/app'
 import '../styles/globals.css';
 import '../styles/app.css';
-import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <_Layout>
-    <Component {...pageProps} />
-  </_Layout>
+  return <ThemeProvider>
+    <_Layout>
+      <Component {...pageProps} />
+    </_Layout>
+  </ThemeProvider>
 }
 
 export default MyApp

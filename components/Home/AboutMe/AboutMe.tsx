@@ -27,7 +27,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
       <h1 className="hero-title mb-5 md:mb-20">
         👨🏻‍💻 <span className="text-gradient">À propos de moi</span>
       </h1>
-      <div className="text-gray-300 flex flex-wrap">
+      <div className="text-gray-700 dark:text-gray-300 flex flex-wrap">
         <div className="w-full md:w-1/3 pb-5">
           <img alt="Image profil" className="h-36 w-36 mx-auto rounded-full relative" src="assets/img/stefano-martines.jpeg"></img>
           <div className="mt-5 flex flex-col gap-4 items-center text-sm">

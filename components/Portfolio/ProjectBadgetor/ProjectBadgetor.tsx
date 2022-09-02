@@ -11,9 +11,9 @@ const ProjectBadgetor: React.FC<ProjectBadgetorProps> = () => {
       <h1 className="hero-title mb-5 md:mb-20">
         🖼 <span className="text-gradient">Badgetor</span>
       </h1>
-      <div className="text-gray-300 grid grid-cols-2 gap-3">
+      <div className="text-gray-700 dark:text-gray-300 grid grid-cols-2 gap-3">
         <div className="col-span-2 md:col-span-1 order-1 md:order-2">
-          <span className="block font-bold italic text-gray-300 text-xs">
+          <span className="block font-bold italic text-black dark:text-gray-300 text-xs">
             Projet personnel
           </span>
           <p>Plateforme web de génération de badge.<br /><br />

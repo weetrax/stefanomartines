@@ -21,14 +21,14 @@ const ProgressBarInfo: React.FC<ProgressBarInfoProps> = ({ title, tags, percenta
 
   return <div className="mb-3">
     <div className="flex justify-between py-2">
-      <div className="text-gray-100">
-        {title}<small className="text-gray-300 lowercase italic">{tags}</small>
+      <div className="text-black dark:text-gray-100">
+        {title}<small className="text-gray-700 dark:text-gray-300 lowercase italic">{tags}</small>
       </div>
-      <div className="text-gray-300">
+      <div className="text-gray-700 dark:text-gray-300">
         <small>+ {yearsExp} an{yearsExp > 1 && "s"}</small>
       </div>
     </div>
-    <div className="shadow w-full bg-dark-400 mt-2 rounded-full">
+    <div className="shadow w-full bg-gray-200 dark:bg-dark-400 mt-2 rounded-full">
       <div className="bg-gradient text-xs leading-none py-1 text-center text-white rounded-full" style={{ width: `${percentage.toString()}%` }}>
         {
           showPercentage && <>{percentage.toString()}%</>
@@ -285,12 +285,12 @@ const Skills: React.FC<SkillsProps> = () => {
         <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
           <div className="relative border border-primary-500 rounded-2xl p-3 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
             <div>
-              <div className="absolute flex items-center justify-center h-16 w-16 rounded-md text-2xl text-white">
+              <div className="absolute flex items-center justify-center h-16 w-16 rounded-md text-2xl text-black dark:text-white">
                 <FontAwesomeIcon className='w-8 h-8' icon={faMicrochip} />
               </div>
-              <p className="ml-20 text-lg leading-6 font-bold text-gray-100">Développement logiciel</p>
+              <p className="ml-20 text-lg leading-6 font-bold text-black dark:text-gray-100">Développement logiciel</p>
             </div>
-            <div className="mt-2 ml-20 text-base text-gray-300">
+            <div className="mt-2 ml-20 text-base text-gray-700 dark:text-gray-300">
               Étude, conception, maintenance et amélioration du back-end {`d'applications`}
               <ul className="text-sm list-disc list-inside">
                 <li>Architecture orientée objets et services</li>
@@ -301,12 +301,12 @@ const Skills: React.FC<SkillsProps> = () => {
           </div>
           <div className="relative border border-primary-500 rounded-2xl p-3 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
             <div>
-              <div className="absolute flex items-center justify-center h-16 w-16 rounded-md text-2xl text-white">
+              <div className="absolute flex items-center justify-center h-16 w-16 rounded-md text-2xl text-black dark:text-white">
                 <FontAwesomeIcon className='w-8 h-8' icon={faGlobeAmericas} />
               </div>
-              <p className="ml-20 text-lg leading-6 font-bold text-gray-100">Développement web</p>
+              <p className="ml-20 text-lg leading-6 font-bold text-black dark:text-gray-100">Développement web</p>
             </div>
-            <div className="mt-2 ml-20 text-base text-gray-300">
+            <div className="mt-2 ml-20 text-base text-gray-700 dark:text-gray-300">
               Étude, conception, maintenance et amélioration du front-end de sites web
               <ul className="text-sm list-disc list-inside">
                 <li>Développement from scratch</li>
@@ -318,7 +318,7 @@ const Skills: React.FC<SkillsProps> = () => {
           </div>
         </div>
         <div className="mt-14">
-          <h1 className="text-lg leading-6 font-bold text-gray-100 mb-5">Langages de programmation</h1>
+          <h1 className="text-lg leading-6 font-bold text-black dark:text-gray-100 mb-5">Langages de programmation</h1>
           <div className="md:space-y-0 grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             <div className="relative">
 
@@ -337,7 +337,7 @@ const Skills: React.FC<SkillsProps> = () => {
           </div>
         </div>
         <div className="mt-14">
-          <h1 className="text-lg leading-6 font-bold text-gray-100 mb-5">Frameworks {`&`} Librairy</h1>
+          <h1 className="text-lg leading-6 font-bold text-black dark:text-gray-100 mb-5">Frameworks {`&`} Librairy</h1>
           <div className="md:space-y-0 grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             <div className="relative order-2 md:order-1" style={{ minHeight: "250px" }}>
               <ParallaxSkillsf />
@@ -357,7 +357,7 @@ const Skills: React.FC<SkillsProps> = () => {
         </div>
       </div>
       <div className="mt-14">
-        <h1 className="text-lg leading-6 font-bold text-gray-100 mb-5">Outils {`&`} Base de données</h1>
+        <h1 className="text-lg leading-6 font-bold text-black dark:text-gray-100 mb-5">Outils {`&`} Base de données</h1>
         <div className="md:space-y-0 grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
           <div className="relative">
 

@@ -12,10 +12,10 @@ const TimelineExp: React.FC<TimelineExpProps> = () => {
         💼 <span className="text-gradient">Expériences professionnelles</span>
       </h1>
       <div className="mt-10">
-        <div className="flex flex-col md:grid grid-cols-9 mx-auto text-gray-200">
+        <div className="flex flex-col md:grid grid-cols-9 mx-auto text-gray-700 dark:text-gray-200">
           <div className="flex flex-row-reverse md:contents">
             <div className="col-start-1 col-end-5 p-4 rounded-2xl my-4 ml-auto w-full border border-primary-500 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
-              <h3 className="font-semibold text-lg text-gray-100">Développeur Full Stack React {`&`} NodeJS (Projet personnel)</h3>
+              <h3 className="font-semibold text-lg text-black dark:text-gray-100">Développeur Full Stack React {`&`} NodeJS (Projet personnel)</h3>
               <small className="block">Depuis Nov 2020, <a rel="noreferrer" className="text-primary-500" target="_blank" href="https://tripsti.herokuapp.com/">tripsti</a>, Cannes - France</small>
               <p className="leading-tight text-justify mt-2">
                 <ul className="list-disc list-inside">
@@ -55,7 +55,7 @@ const TimelineExp: React.FC<TimelineExpProps> = () => {
               <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient shadow"></div>
             </div>
             <div className="col-start-6 col-end-10 p-4 rounded-2xl my-4 mr-auto w-full border border-primary-500 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
-              <h3 className="font-semibold text-lg text-gray-100">Développeur web FullStack C# .NET</h3>
+              <h3 className="font-semibold text-lg text-black dark:text-gray-100">Développeur web FullStack C# .NET</h3>
               <small className="block">Sep 2016 - Nov 2020, <a rel="noreferrer" className="text-primary-500" target="_blank" href="https://www.bnetwork.com/">bnetwork</a>, Cannes - France</small>
               <p className="leading-tight text-justify mt-2">
                 <ul className="list-disc list-inside">
@@ -95,7 +95,7 @@ const TimelineExp: React.FC<TimelineExpProps> = () => {
           </div>
           <div className="flex flex-row-reverse md:contents">
             <div className="col-start-1 col-end-5 p-4 rounded-2xl my-4 ml-auto w-full border border-primary-500 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
-              <h3 className="font-semibold text-lg text-gray-100">Développeur web FullStack C# .NET (Stage)</h3>
+              <h3 className="font-semibold text-lg text-black dark:text-gray-100">Développeur web FullStack C# .NET (Stage)</h3>
               <small className="block">Jan 2016 - Mars 2016, <a rel="noreferrer" className="text-primary-500" target="_blank" href="https://locallbiz.com/">Locallbiz</a>, Cannes, France</small>
               <p className="leading-tight text-justify mt-2">
                 Option Solutions Logicielles et Applications Métiers

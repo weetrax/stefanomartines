@@ -38,13 +38,13 @@ const Interest: React.FC<InterestProps> = () => {
       <h1 className="hero-title mb-5 md:mb-20">
         🎯 <span className="text-gradient">Centres {`d’intérêt`}</span>
       </h1>
-      <div className="grid grid-cols-6 gap-4 text-gray-200">
+      <div className="grid grid-cols-6 gap-4 text-gray-700 dark:text-gray-200">
         {
           interests.map((interest, index) => {
             return <div key={`interest_${index}`} className="col-span-2 lg:col-span-1 text-center p-4 rounded-2xl text-2xl border hover:-translate-y-2 border-primary-500 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
               <span className="block text-xs mb-2">{interest.name}</span>
               <div className="flex justify-center">
-                <FontAwesomeIcon className="text-white w-8 h-8" icon={interest.icon} />
+                <FontAwesomeIcon className="text-black dark:text-white w-8 h-8" icon={interest.icon} />
               </div>
             </div>
           })

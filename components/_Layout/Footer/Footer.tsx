@@ -11,7 +11,7 @@ type FooterProps = {
 
 const Footer: React.FC<FooterProps> = () => {
   return (
-    <footer className="bg-dark-600 backdrop-filter backdrop-blur bg-opacity-70">
+    <footer className="bg-white dark:bg-dark-600 text-black dark:text-white backdrop-filter backdrop-blur bg-opacity-70">
       <Container>
         <ul className="py-12 text-center flex flex-col gap-2">
           <li>
