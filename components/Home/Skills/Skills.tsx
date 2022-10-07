@@ -292,7 +292,7 @@ const Skills: React.FC<SkillsProps> = () => {
             </div>
             <div className="mt-2 ml-20 text-base text-gray-700 dark:text-gray-300">
               Étude, conception, maintenance et amélioration du back-end {`d'applications`}
-              <ul className="text-sm list-disc list-inside">
+              <ul className="text-sm list-disc list-inside flex flex-col gap-1">
                 <li>Architecture orientée objets et services</li>
                 <li>Récupération, manipulation et exposition de données</li>
                 <li>Traitements de données par algorithmes</li>
@@ -308,7 +308,7 @@ const Skills: React.FC<SkillsProps> = () => {
             </div>
             <div className="mt-2 ml-20 text-base text-gray-700 dark:text-gray-300">
               Étude, conception, maintenance et amélioration du front-end de sites web
-              <ul className="text-sm list-disc list-inside">
+              <ul className="text-sm list-disc list-inside flex flex-col gap-1">
                 <li>Développement from scratch</li>
                 <li>Mise en page de contenus</li>
                 <li>Gestion du responsive design</li>

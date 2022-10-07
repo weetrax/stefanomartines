@@ -13,12 +13,43 @@ const TimelineExp: React.FC<TimelineExpProps> = () => {
       </h1>
       <div className="mt-10">
         <div className="flex flex-col md:grid grid-cols-9 mx-auto text-gray-700 dark:text-gray-200">
+          <div className="flex md:contents">
+            <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+              <div className="h-full w-6 flex items-center justify-center">
+                <div className="h-full w-1 bg-gradient pointer-events-none"></div>
+              </div>
+              <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient shadow"></div>
+            </div>
+            <div className="col-start-6 col-end-10 p-4 rounded-2xl my-4 mr-auto w-full border border-primary-500 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
+              <h3 className="font-semibold text-lg text-black dark:text-gray-100">Développeur web Front-end ReactJS</h3>
+              <small className="block">Dec 2021 - Auj., <a rel="noreferrer" className="text-primary-500" target="_blank" href="https://www.sequoiasoft.com/">Sequoiasoft</a>, Valbonne - France</small>
+              <p className="leading-tight text-justify mt-2">
+                <ul className="list-disc list-inside flex flex-col gap-2">
+                  <li>
+                    Refonte complète de l{"'"}application du tunnel de réservation en ligne Resalys en ReactJS.
+                  </li>
+                  <li>
+                    Intégration {"&"} manipulation de l{"'"}API interne GraphQL.
+                  </li>
+                  <li>
+                    Mise en place de Storybook.
+                  </li>
+                  <li>
+                    Participation aux réunions clients.
+                  </li>
+                </ul>
+              </p>
+              <small className="block mt-3 italic">
+                react.js, typescript, html, css, json, apollo graphql, webpack, git, gitlab
+              </small>
+            </div>
+          </div>
           <div className="flex flex-row-reverse md:contents">
             <div className="col-start-1 col-end-5 p-4 rounded-2xl my-4 ml-auto w-full border border-primary-500 transition-all duration-200 ease-in-out hover:shadow-[0_0_70px_-30px] hover:shadow-primary-500">
-              <h3 className="font-semibold text-lg text-black dark:text-gray-100">Développeur Full Stack React {`&`} NodeJS (Projet personnel)</h3>
+              <h3 className="font-semibold text-lg text-black dark:text-gray-100">Développeur Full Stack ReactJS {`&`} NodeJS (Projet personnel)</h3>
               <small className="block">Depuis Nov 2020, <a rel="noreferrer" className="text-primary-500" target="_blank" href="https://tripsti.herokuapp.com/">tripsti</a>, Cannes - France</small>
               <p className="leading-tight text-justify mt-2">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>
                     Développement et gestion du site from scratch avec utilisation de la bibliothèque React.js pour le côté Front-end et Node.js {`&`} Express.js pour le Back-end et serveur.
                   </li>
@@ -58,7 +89,7 @@ const TimelineExp: React.FC<TimelineExpProps> = () => {
               <h3 className="font-semibold text-lg text-black dark:text-gray-100">Développeur web FullStack C# .NET</h3>
               <small className="block">Sep 2016 - Nov 2020, <a rel="noreferrer" className="text-primary-500" target="_blank" href="https://www.bnetwork.com/">bnetwork</a>, Cannes - France</small>
               <p className="leading-tight text-justify mt-2">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>
                     Lead Developer sur la refonte de projets web existants.
                   </li>
@@ -81,7 +112,7 @@ const TimelineExp: React.FC<TimelineExpProps> = () => {
                     Correction de bugs {`&`} codereview.
                   </li>
                   <li>
-                    Participation aux réunions avec les clients.
+                    Participation aux réunions clients.
                   </li>
                   <li>
                     Support client.
@@ -101,7 +132,7 @@ const TimelineExp: React.FC<TimelineExpProps> = () => {
                 Option Solutions Logicielles et Applications Métiers
               </p>
               <p className="leading-tight text-justify mt-2">
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>
                     Création {`d'une`} plateforme de partage de frais en ASP.NET WebForms (en collaboration avec un autre stagiaire)
                   </li>
