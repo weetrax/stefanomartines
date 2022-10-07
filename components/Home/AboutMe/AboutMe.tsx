@@ -1,7 +1,7 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGitlab, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faGitlab, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 
 type AboutMeProps = {
@@ -44,12 +44,16 @@ const AboutMe: React.FC<AboutMeProps> = () => {
               <span className="italic"><strong>🚘 Permis B</strong>: ✅</span>
             </div>
             <div>
+              <a href="https://github.com/weetrax" rel="noreferrer" target="_blank" className="inline px-2">
+                <FontAwesomeIcon icon={faGithub} className="w-6 h-6"></FontAwesomeIcon>
+              </a>
               <a href="https://gitlab.com/weetrax" rel="noreferrer" target="_blank" className="inline px-2">
                 <FontAwesomeIcon icon={faGitlab} className="w-6 h-6"></FontAwesomeIcon>
               </a>
               <a href="https://www.linkedin.com/in/stefano-martines-2484a7123/" rel="noreferrer" target="_blank" className="inline px-2">
                 <FontAwesomeIcon icon={faLinkedinIn} className="w-6 h-6"></FontAwesomeIcon>
               </a>
+
             </div>
           </div>
         </div>
