@@ -53,7 +53,6 @@ const AboutMe: React.FC<AboutMeProps> = () => {
               <a href="https://www.linkedin.com/in/stefano-martines-2484a7123/" rel="noreferrer" target="_blank" className="inline px-2">
                 <FontAwesomeIcon icon={faLinkedinIn} className="w-6 h-6"></FontAwesomeIcon>
               </a>
-
             </div>
           </div>
         </div>
